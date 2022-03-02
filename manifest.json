@@ -1,0 +1,14 @@
+{
+  "name": "IndexedBy",
+  "manifest_version": 3,
+  "description": "Simple context menu short-cut to check if the site has been indexed by search search engines",
+  "author": "Thomas Casey",
+  "version": "0.0.1",
+  "background": {
+  	"service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs",
+    "contextMenus"
+  ]
+}
